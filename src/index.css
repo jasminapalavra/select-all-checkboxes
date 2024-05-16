@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    color: rgb(10, 10, 10);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    
+}
+
+.checkbox-container input[type='checkbox'] {
+    margin-right: 10px;
+    accent-color: #feb47b;  
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+}
+
+
